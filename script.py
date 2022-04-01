@@ -30,7 +30,7 @@ for user in users:
         "gender": user["gender"],
         "address": user["address"],
         "age": user["age"],
-        "books": book
+        "books": user["books"]
     })
 
 with open("data/result.json", "w", encoding='utf-8') as file:
